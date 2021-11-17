@@ -10,7 +10,7 @@ body {
   font-family: "montserrat", sans-serif;
 }
 .main-bg{
-    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/assets/images/main.jpg);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/assets/images/slide1.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -21,8 +21,8 @@ body {
     font-size: 35px;
 }
 nav {
-  /* background-color: #483434; */
-  height: 70px;
+  background-color: #fff;
+  height: 100px;
   width: 100%;
 }
 label.logo{
@@ -43,7 +43,7 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: white;
+    color: #000000;
     font-size: 14px;
     padding: 7px;
     border-radius: 5px;
@@ -52,7 +52,7 @@ nav ul li a{
     text-transform: capitalize;
 }
 a.active , a:hover{
-background-color: #092532;
+background-color: #219044;
 transition: .6s;
 }
 .checkbtn{
@@ -104,4 +104,58 @@ transition: .6s;
     #check:checked ~ ul{
         left: 0;
     }
+}
+.image-logo{
+    width: 150px;
+    position: relative;
+
+top: 20px;
+left: 20px;
+}
+.main-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+  
+
+}
+.main-heading>h1{
+    color: white;
+    font-weight: 800;
+    font-size: 65px;
+}
+.main-heading>h6{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.polo{
+    /* color: #219044; */
+}
+.painting
+{
+    /* color: black; */
+}
+.about-heading{
+    color: #219044;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.about-img{
+    /* width: 300px; */
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+.sub-head-about{
+    color: #219044;
+font-weight: 700;
 }
